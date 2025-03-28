@@ -1,23 +1,32 @@
 {
-  "name": "Choropleth Map",
-  "logoUrl": "https://storage.googleapis.com/choromap/choropleth.png",
-  "organization": "Data Science Campus",
-  "organizationUrl": "https://datasciencecampus.ons.gov.uk/",
-  "supportUrl": "https://github.com/datasciencecampus/community-visualizations/issues",
-  "packageUrl": "https://datastudio.google.com/reporting/4617cbac-3514-4c8d-a999-a3cb6683e579",
-  "privacyPolicyUrl": "https://datasciencecampus.github.io/community-visualizations/docs/privacy-policy.html",
-  "description": "Choropleth mapping using D3.",
-  "devMode": false,
-  "termsOfServiceUrl": "https://datasciencecampus.github.io/community-visualizations/docs/privacy-policy.html",
-  "components": [{
-    "id": "choromap",
+  "dataStudio": {
     "name": "Choropleth Map",
-    "iconUrl": "https://storage.googleapis.com/choromap/choropleth.png",
-    "description": "Choropleth mapping using D3.",
-    "resource": {
-  "js": "https://efl-algona.github.io/choromap/choromap.js",
-  "config": "https://efl-algona.github.io/choromap/choromap.json",
-  "css": "https://efl-algona.github.io/choromap/choromap.css"
+    "company": "Dein Unternehmen",
+    "companyUrl": "https://efl-algona.github.io/",
+    "description": "Choropleth map using GeoJSON",
+    "resources": {
+      "js": [
+        "https://efl-algona.github.io/choromap/choromap.js"
+      ],
+      "css": [
+        "https://efl-algona.github.io/choromap/choromap.css"
+      ],
+      "config": "https://efl-algona.github.io/choromap/choromap.json"
+    },
+    "fields": {
+      "dimension": {
+        "min": 1,
+        "max": 2
+      },
+      "metric": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    "style": {},
+    "theme": {},
+    "supports": {
+      "filter": true
     }
-  }]
+  }
 }
