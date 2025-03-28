@@ -15,9 +15,9 @@
     "iconUrl": "https://storage.googleapis.com/choromap/choropleth.png",
     "description": "Choropleth mapping using D3.",
     "resource": {
-      "js": "gs://choromap/choromap.js",
-      "config": "gs://choromap/choromap.json",
-      "css": "gs://choromap/choromap.css"
+  "js": "https://efl-algona.github.io/choromap/choromap.js",
+  "config": "https://efl-algona.github.io/choromap/choromap.json",
+  "css": "https://efl-algona.github.io/choromap/choromap.css"
     }
   }]
 }
